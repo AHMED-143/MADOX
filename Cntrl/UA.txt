@@ -1,4 +1,4 @@
-version = 'TEST'
+version = 'V10.1'
 
 type = 'Trail'
 
@@ -9,7 +9,7 @@ def uaa():
     mdl = random.choice(modl)
     s = f'Dalvik/2.1.0 (Linux; U; Android {random.randint(4,13)}; {random.choice(mdl)} Build/QP1A.{random.randint(111111,999999)}.{random.randint(111,999)})) '
     ss = f'[FBAN/FB4A;FBAV/{random.randint(11,99)}.0.0.{random.randint(1111,9999)};FBBV/{random.randint(111111,9999999)}'
-    sss = '[FBAN/FB4A;FBAV/266.0.0.64.124;FBBV/209629367;FBDM/{density=3.375,width=1080,height=2139};FBLC/fr_FR;FBRV/0;FBCR/VOO;FBMF/HUAWEI;FBBD/HUAWEI;FBPN/com.facebook.katana;FBDV/POT-LX1;FBSV/9;FBOP/1;FBCA/arm64-v8a:;]'
+    sss = '[FBAN/Orca-Android;FBAV/196.0.0.50;FBPN/com.facebook.orca;FBLC/en_CA;FBBV/783193041;FBCR/VIRGIN;FBMF/Xiaomi;FBBD/Xiaomi;FBDV/2109119DI;FBSV/8.3.5;FBCA/armeabi-v7a:armeabi;FBDM/{density=2.0,width=1280,height=720};FB_FW/1;FBRV/942807972;]'
     ua = s + ss + sss
     #print(ua)
     return ua
