@@ -59,9 +59,9 @@ def zlib():
 	line()
 	x = input(f" [?] CHOICE : ")
 	if x in ["A"]:
-		decode()
-	elif x in ["B"]:
 		encode()
+	elif x in ["B"]:
+		decode()
 	elif x in ["x"]:
 		yasin()
 	else:
