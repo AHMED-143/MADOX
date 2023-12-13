@@ -59,9 +59,9 @@ def zlib():
 	line()
 	x = input(f" [?] CHOICE : ")
 	if x in ["A"]:
-		hex()
+		decode()
 	elif x in ["B"]:
-		dex()
+		encode()
 	elif x in ["x"]:
 		yasin()
 	else:
