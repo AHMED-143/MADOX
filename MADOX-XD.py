@@ -1,1 +1,1 @@
-import YASIN()
+import YASIN
