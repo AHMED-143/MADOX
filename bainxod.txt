@@ -1,3 +1,0 @@
-def paid2():
-	paid1 = Free()
-  print('Enjoy Free some time')
