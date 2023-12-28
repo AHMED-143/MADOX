@@ -12,4 +12,3 @@ if madox == '64bit':
  import xdxn
 elif madox == '32bit':
  print('\033[1;91m[\033[1;97m●\033[1;91m] \033[1;92mYOUR DEVICE IS 32 BIT !! SORRY 32 BIT NOT SUPPORTED ')
- os.system('exit')
