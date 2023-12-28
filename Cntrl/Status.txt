@@ -1,2 +1,0 @@
-def Free():
-          paid = menu()
