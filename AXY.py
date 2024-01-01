@@ -1,1 +1,1 @@
-import SSB.sarfraz()
+import SSB
